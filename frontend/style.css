@@ -5,13 +5,14 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: #EDE8DC;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: #CCD5AE;
   padding: 1rem 3rem;
 }
 
@@ -37,11 +38,10 @@ main {
 
 .nav-side {
   width: 20%;
-  background-color: aquamarine;
+  background-color: #E7CCCC;
   color: rgb(62, 60, 60);
   padding: 1rem 0;
   text-align: center;
-  border: 1px solid gray;
   min-width: 150px;
 }
 
