@@ -99,6 +99,7 @@ header{
  width: 100%;
  height: auto;
  border-radius: 100%;
+ box-shadow: 2px 2px 2px grey;
 }
 
 section{
@@ -152,6 +153,7 @@ h2{
  .section-2{
   background-color: #eedada;
  }
+
  }
 
 
