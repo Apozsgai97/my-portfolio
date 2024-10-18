@@ -59,3 +59,36 @@ main {
   padding: 2rem 0.5rem;
   border-bottom: 1px solid grey;
 }
+
+header{
+ display: flex;
+ padding: 2rem;
+ align-items: center;
+ border-bottom: 1px solid gray;
+}
+
+.container-text{
+ width: 60%;
+ text-align: center;
+}
+
+.container-pic{
+ width: 40%;
+}
+
+.header-pic{
+ width: 100%;
+ height: auto;
+ border-radius: 100%;
+}
+
+section{
+ padding: 2rem;
+ border-bottom: 1px solid gray;
+}
+
+p{
+ text-align: justify;
+}
+
+
