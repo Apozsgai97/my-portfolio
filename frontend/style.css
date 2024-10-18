@@ -1,11 +1,16 @@
 * {
   box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 html,
 body {
   padding: 0;
   margin: 0;
   background-color: #EDE8DC;
+  color: rgb(62, 60, 60);
 }
 
 nav {
@@ -14,6 +19,8 @@ nav {
   align-items: center;
   background-color: #CCD5AE;
   padding: 1rem 3rem;
+  position:fixed;
+  width: 100%;
 }
 
 .nav-top {
@@ -28,21 +35,24 @@ nav {
 .menu-item {
   text-decoration: none;
   color: rgb(62, 60, 60);
-  font-weight: bold;
+  font-weight:900;
 }
 
 main {
   display: flex;
   gap: 1rem;
+  padding: 2rem 0;
 }
 
 .nav-side {
-  width: 20%;
   background-color: #E7CCCC;
   color: rgb(62, 60, 60);
   padding: 1rem 0;
   text-align: center;
-  min-width: 150px;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  margin-top: 21px;
 }
 
 .nav-side-list {
@@ -52,7 +62,8 @@ main {
 }
 
 .container-1 {
-  width: 80%;
+  width: 100%;
+  margin-left: 200px;
 }
 
 .nav-side-list li {
